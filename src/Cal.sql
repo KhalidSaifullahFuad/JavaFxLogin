@@ -1,0 +1,17 @@
+CREATE DATABASE "Cal";
+
+CREATE TABLE UserTable (
+	UserId SERIAL PRIMARY KEY,
+	Password VARCHAR(30)
+);
+
+CREATE TABLE RecordTable (
+	RecId SERIAL PRIMARY KEY,
+	Input1 VARCHAR(30),
+	Input2 VARCHAR(30),
+	Output VARCHAR(50),
+	Odd VARCHAR(20),
+	Prime VARCHAR(20),
+	Perfect VARCHAR(20),
+	Power VARCHAR(20)
+);
